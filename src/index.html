@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Task List</title>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="main" class="card mt-5">
+                        <div class="card-body">
+                            <h3 class="card-title mb-4">Task List</h3>
+                            <form id="task-form">
+                                <input class="form-control mb-3" type="text" placeholder="New Task" name="task" id="task">
+                                <input value="Add Task" type="submit" class="btn btn-info mb-3"></input>
+                            </form>                            
+                            <hr>
+                            <h4 class="font-weight-light mb-4">Tasks</h4>
+                            <form class="">
+                                <input class="form-control mb-3" type="text" placeholder="Filter Tasks" id="filter" name="filter">
+                            </form>
+                            <ul class="list-group mb-3">
+                                <!-- <li class="list-group-item">test
+                                    <a class="">
+                                        <i class="fa fa-remove"></i>
+                                    </a>
+                                </li>
+                                <div class="input-group">
+                                    <div type="text" class="form-control">
+                                        test
+                                    </div>
+                                    <div class="input-group-append">
+                                        <a href="#">
+                                            <span class="input-group-text fa fa-remove" id=""></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="input-group">
+                                    <div type="text" class="form-control">
+                                        test
+                                    </div>
+                                    <div class="input-group-append">
+                                        <a href="#" class="input-group-text fa fa-remove">
+                                        </a>
+                                    </div>
+                                </div> -->
+                            </ul>
+                            <a href="#" class="btn btn-dark mb-3 clear-tasks">Clear Tasks</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/scrollreveal.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
