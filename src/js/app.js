@@ -62,7 +62,7 @@ function loadEventListeners(){
          //create 'a' tag
          const link = document.createElement('a');
          // ADD CLASS
-         link.className = 'input-group-text fa fa-remove';
+         link.className = 'input-group-text fa fa-times';
          // ADD ATTRIBUTE
          link.setAttribute("href", "#");
          // ADD ICON HTML
